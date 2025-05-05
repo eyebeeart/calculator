@@ -15,6 +15,7 @@ buttons.forEach(button => {
           addToHistory(`√(${currentInput}) = ${result}`);
           currentInput = result.toString();
           display.textContent = currentInput;
+          currentInput = '';
           resultDisplayed = true;
         }
       });
@@ -25,6 +26,7 @@ buttons.forEach(button => {
           addToHistory(`${currentInput}% = ${result}`);
           currentInput = result.toString();
           display.textContent = currentInput;
+          currentInput = '';
           resultDisplayed = true;
         }
       });
@@ -35,6 +37,7 @@ buttons.forEach(button => {
           addToHistory(`(${currentInput})² = ${result}`);
           currentInput = result.toString();
           display.textContent = currentInput;
+          currentInput = '';
           resultDisplayed = true;
         }
       });
