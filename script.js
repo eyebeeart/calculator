@@ -98,6 +98,13 @@ function addToHistory(entry) {
   const themeToggleBtn = document.getElementById('toggle-theme');
 
 themeToggleBtn.addEventListener('click', () => {
-  document.body.classList.toggle('dark');
+  if(document.body.classList.contains('dark')){
+    themeToggleBtn.textContent = "Dark mode";
+    document.body.classList.toggle('dark');
+  }else{
+    document.body.classList.toggle('dark');
+    themeToggleBtn.textContent = "light mode";
+  }
+ 
 });
 
