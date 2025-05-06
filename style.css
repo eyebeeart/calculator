@@ -148,8 +148,18 @@ body {
   }
 
 @media ( max-width: 500px) {
-    body{
-       paddimg: 10px;
+   #display {
+    font-size: 2rem;
+    padding: 0.75rem;
+  }
+
+  button {
+    font-size: 1.2rem;
+    padding: 0.8rem;
+  }
+
+    .calculator{
+        width: 80%;
     }
 }
   
