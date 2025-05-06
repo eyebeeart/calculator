@@ -146,5 +146,11 @@ body {
     font-size: 1.em;
     cursor: pointer;
   }
+
+@media ( max-width: 500px) {
+    body{
+       paddimg: 10px;
+    }
+}
   
 
